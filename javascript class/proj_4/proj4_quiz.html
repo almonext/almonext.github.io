@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Quiz Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #game-container {
+            max-width: 500px;
+            margin: auto;
+            padding: 20px;
+            border: 2px solid #333;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+        .true-btn {
+            background-color: green;
+            color: white;
+        }
+        .false-btn {
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="game-container">
+        <h1>JavaScript Quiz Game</h1>
+        <p id="question">Loading question...</p>
+        <button id="trueBtn" class="true-btn">True</button>
+        <button id="falseBtn" class="false-btn">False</button>
+        <p id="score">Score: 0</p>
+    </div>
+
+
+  <script src="proj4.js"></script>
+    
+  </body>
+  </html>
