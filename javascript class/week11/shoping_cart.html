@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Shopping Cart</title>
+  <style>
+    .item, .cart-item { border: 1px solid #ccc; padding: 10px; margin: 10px; }
+    .items, .cart { display: flex; flex-wrap: wrap; }
+  </style>
+</head>
+<body>
+
+  <h1>Shopping Cart</h1>
+
+  <div class="items" id="items-list"></div>
+
+  <h2>Cart</h2>
+  <div class="cart" id="cart-list"></div>
+  <h3>Total: $<span id="total-price">0.00</span></h3>
+
+  <script src="cart.js"></script>
+</body>
+</html>
